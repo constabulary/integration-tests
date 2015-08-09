@@ -1,0 +1,12 @@
+{
+	"version": 0,
+	"dependencies": [
+		{
+			"importpath": "code.google.com/p/go-sqlite/go1/sqlite3",
+			"repository": "https://code.google.com/p/go-sqlite",
+			"revision": "6e75c20f8fc4",
+			"branch": "default",
+			"path": "/go1/sqlite3"
+		}
+	]
+}
