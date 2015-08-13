@@ -1,0 +1,11 @@
+{
+	"version": 0,
+	"dependencies": [
+		{
+			"importpath": "github.com/zeromq/goczmq",
+			"repository": "https://github.com/zeromq/goczmq",
+			"revision": "55b3baf4cf82cc150e64ad1209adf1b6ee987d2c",
+			"branch": "master"
+		}
+	]
+}
