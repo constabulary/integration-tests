@@ -1,0 +1,12 @@
+{
+	"version": 0,
+	"dependencies": [
+		{
+			"importpath": "github.com/veandco/go-sdl2/sdl",
+			"repository": "https://github.com/veandco/go-sdl2",
+			"revision": "532016e99aed73e24ae212239187ba8389db008e",
+			"branch": "master",
+			"path": "/sdl"
+		}
+	]
+}
