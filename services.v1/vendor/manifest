@@ -1,0 +1,17 @@
+{
+	"version": 0,
+	"dependencies": [
+		{
+			"importpath": "github.com/ErikDubbelboer/gspt",
+			"repository": "https://github.com/ErikDubbelboer/gspt",
+			"revision": "8c56bb0ac34bd43330a191a54511126c9443eba7",
+			"branch": "master"
+		},
+		{
+			"importpath": "gopkg.in/hlandau/service.v1",
+			"repository": "https://gopkg.in/hlandau/service.v1",
+			"revision": "7869653585f08245bef6fb0c4548d07b427dd0e4",
+			"branch": "master"
+		}
+	]
+}
