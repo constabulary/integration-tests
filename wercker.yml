@@ -12,9 +12,4 @@ build:
     - script:
         name: integration tests
         code: |
-          for script in */run.bash; do
-            pushd "$(dirname "$script")"
-            [ -x setup.bash ] && ./setup.bash
-            ./run.bash
-            popd
-          done
+          ./run-all.bash
