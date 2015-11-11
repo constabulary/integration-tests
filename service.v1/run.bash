@@ -2,7 +2,7 @@
 set -ex
 
 mkdir -p src
-gb vendor -v restore
+env DEBUG=. gb vendor restore
 cd vendor
 gb build
 gb test

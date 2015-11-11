@@ -1,5 +1,5 @@
 #!/bin/bash
 set -ex
 
-gb vendor -v restore
+env DEBUG=. gb vendor restore
 gb build
