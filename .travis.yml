@@ -1,0 +1,22 @@
+language: go
+go_import_path: github.com/constabulary/integration-tests
+go:
+  - 1.5.1
+  - 1.4.3
+  - tip
+
+sudo: false
+
+addons:
+  apt:
+    packages:
+      - libcap-dev # service.v1
+
+install:
+  - go get -v github.com/constabulary/gb/...
+  - echo '#!/bin/bash' > "$GOPATH/bin/sudo"
+    && echo 'echo >&2 attempted sudo "$@"' >> "$GOPATH/bin/sudo"
+    && chmod +x "$GOPATH/bin/sudo"
+
+script:
+  - ./run-all.bash
