@@ -1,8 +1,8 @@
 package main
 
 import (
-	"code.google.com/p/go-sqlite/go1/sqlite3"
 	"fmt"
+	"github.com/mattn/go-sqlite3"
 )
 
 func main() {

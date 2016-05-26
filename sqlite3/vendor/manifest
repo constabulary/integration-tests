@@ -2,11 +2,10 @@
 	"version": 0,
 	"dependencies": [
 		{
-			"importpath": "code.google.com/p/go-sqlite/go1/sqlite3",
-			"repository": "https://code.google.com/p/go-sqlite",
-			"revision": "6e75c20f8fc4",
-			"branch": "default",
-			"path": "/go1/sqlite3"
+			"importpath": "github.com/mattn/go-sqlite3",
+			"repository": "https://github.com/mattn/go-sqlite3",
+			"revision": "38ee283dabf11c9cbdb968eebd79b1fa7acbabe6",
+			"branch": "master"
 		}
 	]
 }
